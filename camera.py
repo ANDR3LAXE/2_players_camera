@@ -46,7 +46,7 @@ class CameraGroup(pygame.sprite.Group):
 		self.half_h = self.display_surface.get_size()[1] // 2
 
 		# ground
-		self.ground_surf =  pygame.image.load('DWARF/test_background.png').convert_alpha()
+		self.ground_surf =  pygame.image.load('test_background.png').convert_alpha()
 		self.ground_rect = self.ground_surf.get_rect(topleft = (0,0))
 
 		# zoom
